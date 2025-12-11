@@ -137,6 +137,31 @@ Blokas baigtas. Visi vartotojo ivesti studentai sunaikinti.
 
 Perdengti operatoriai >> ir << leidžia studentų duomenis skaityti ir išvesti vienodu formatu tiek į ekraną, tiek į failus.
 
+### v3.0 – Diegimo failai ir naudojimosi instrukcija
+
+Šioje versijoje pridėti programos diegimo failai setup.exe ir setup.msi, sukurti pagal v1.5 versijos projektą. Diegimo paketas įtraukia visus reikiamus programos failus ir automatiškai sukuria nuorodas.
+
+**Diegimas**
+1. Paleiskite setup.exe.
+2. Programa bus įdiegta į katalogą:
+```
+C:\Program Files (x86)\VU\Aurelija-Seliukaite
+```
+3. Diegimo metu automatiškai sukuriamos nuorodos:
+- Desktop nuoroda į programą
+- Start Menu → VU → Aurelija-Seliukaite nuoroda
+4. Programa paleidžiama su administratoriaus teisėmis (Execution Level = requireAdministrator).
+
+**Paleidimas po diegimo**
+
+Programą galite paleisti trimis būdais:
+- Per darbalaukio nuorodą
+- Per Start Menu → VU → Aurelija-Seliukaite
+- Tiesiai iš diegimo aplanko:
+```
+C:\Program Files (x86)\VU\Aurelija-Seliukaite\v1.5.exe
+```
+
 ## Strategijų aprašymas
 
 | Strategija | Aprašymas |
