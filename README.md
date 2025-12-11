@@ -385,3 +385,5 @@ Studento objektas saugomas adresu: 0000022402A862D0
 | v1.1 | Pakeista struct į class duomenų struktūrų apibrėžimuose, išlaikant tą patį programos veikimą. |
 | v1.2 | Pridėta Rule of Three demonstracija, perdengti >> / << operatoriai darbui su ekrano ir failo įvestimi/išvestimi. |
 | v1.5 | Pridėta abstrakti klasė Žmogus, iš kurios yra paveldimas Studentas |
+| v2.0 | Sukurta dokumentacija naudojant Doxygen, realizuoti keli unit testai. |
+| v3.0 | Pridėtas programos diegimo paketas (setup.exe ir setup.msi). |
